@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>האפליקציה המקצועית שלי</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1.0, user-scalable=0">
+    <style>
+      :root { --safe-top: env(safe-area-inset-top); --safe-bottom: env(safe-area-inset-bottom); }
+      html, body { margin: 0 !important; padding: 0 !important; width: 100vw !important; min-height: 100% !important; overflow-x: hidden !important; -webkit-tap-highlight-color: transparent; display: block !important; }
+      * { max-width: 100% !important; box-sizing: border-box !important; }
+      body { padding-top: var(--safe-top) !important; padding-bottom: var(--safe-bottom) !important; }
+    </style>
+    <script>
+      window.onerror = function(msg, url, line) {
+        document.body.innerHTML = '<div style="padding:20px; color:red; font-family:sans-serif; text-align:center;">' +
+          '<h2>שגיאה בהרצת התצוגה המקדימה</h2>' +
+          '<p>' + msg + '</p>' +
+          '<p style="font-size:12px; opacity:0.7;">שגיאה זו נפוצה בפרויקטים של Node.js שדורשים בנייה (Build). האפליקציה הסופית תיבנה כראוי ב-GitHub.</p>' +
+          '</div>';
+      };
+    </script>
+  </head>
+<body style="background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); color: white; display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh; font-family: system-ui, -apple-system, sans-serif; margin: 0; text-align: center; padding: 20px;">
+  <div style="background: rgba(255,255,255,0.03); padding: 40px; border-radius: 40px; backdrop-filter: blur(15px); border: 1px solid rgba(255,255,255,0.1); width: 100%; max-width: 380px; box-shadow: 0 25px 50px -12px rgba(0,0,0,0.5);">
+    <div style="font-size: 50px; margin-bottom: 20px;">🚀</div>
+    <h1 style="color: #10b981; font-size: 2.2rem; margin-bottom: 10px; font-weight: 900;">אפליקציה חכמה</h1>
+    <p style="opacity: 0.6; font-size: 1rem; margin-bottom: 30px; line-height: 1.5;">הקוד שלך הפך לאפליקציית אנדרואיד אמיתית ללא שוליים מיותרים.</p>
+    <input type="text" placeholder="הכנס הודעה..." style="width: 100%; padding: 18px; border-radius: 20px; border: 2px solid #334155; background: #0f172a; color: white; margin-bottom: 20px; outline: none; transition: all 0.3s; font-size: 16px;">
+    <button style="width: 100%; padding: 20px; background: #10b981; border: none; border-radius: 20px; color: #000; font-weight: 800; font-size: 1.2rem; cursor: pointer;">המשך</button>
+  </div>
+</body>
+</html>

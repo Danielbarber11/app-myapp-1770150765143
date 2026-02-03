@@ -1,0 +1,6 @@
+{
+  "appId": "com.appcraft.myapp",
+  "appName": "האפליקציה המקצועית שלי",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}
